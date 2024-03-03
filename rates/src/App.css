@@ -1,0 +1,89 @@
+.allCards {
+  margin: 0 auto;
+  margin-top: 10%;
+  width: 55%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.tarif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 175px;
+  height: 300px;
+}
+
+.name {
+  height: 20%;
+  color: rgb(255, 255, 255);
+  font-size: large;
+  font-weight: bold;
+}
+
+.price {
+  height: 40%;
+  margin-top: 1px;
+  color: white;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+
+.speed {
+  height: 20%;
+  background-color: rgb(245, 244, 244);
+}
+
+.volume {
+  height: 20%;
+  background-color: rgb(234, 233, 233);
+}
+
+.name, .price, .speed, .volume {
+  width: 100%;
+  flex: 1, 2, 1, 1; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.chosenCard {
+  width: 175px;
+  height: 350px;
+  border: 2px solid red;
+}
+
+.tarif:nth-child(1) .name {
+  background-color: rgba(12, 192, 252, 0.937);
+}
+
+.tarif:nth-child(1) .price {
+  background-color: rgb(87, 191, 226);
+}
+
+.tarif:nth-child(2) .name {
+  background-color: rgb(3, 117, 3);
+}
+
+.tarif:nth-child(2) .price {
+  background-color: rgb(93, 166, 93);
+}
+
+.tarif:nth-child(3) .name {
+  background-color: red;
+}
+
+.tarif:nth-child(3) .price {
+  background-color: crimson;
+}
+
+.tarif:nth-child(4) .name {
+  background-color: black;
+}
+
+.tarif:nth-child(4) .price {
+  background-color: rgba(16, 16, 16, 0.573);
+}
+
